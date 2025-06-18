@@ -79,3 +79,9 @@ Após iniciar a aplicação, a documentação da API estará disponível no segu
 ### Configuração
 
 O Swagger foi configurado utilizando a dependência `springdoc-openapi` no projeto. Para mais informações sobre como configurar ou personalizar a documentação, consulte a [documentação oficial do Springdoc](https://springdoc.org/).
+
+
+### Acessando a Documentação no Ambiente de Produção
+Além do ambiente local, a documentação da API também está disponível no ambiente de produção, onde o projeto foi implantado. Você pode acessá-la no seguinte endereço:
+
+- **Swagger UI (Produção)**: [https://nexdom-backend-production.up.railway.app/swagger-ui/index.html](https://nexdom-backend-production.up.railway.app/swagger-ui/index.html)
