@@ -85,3 +85,15 @@ O Swagger foi configurado utilizando a dependência `springdoc-openapi` no proje
 Além do ambiente local, a documentação da API também está disponível no ambiente de produção, onde o projeto foi implantado. Você pode acessá-la no seguinte endereço:
 
 - **Swagger UI (Produção)**: [https://nexdom-backend-production.up.railway.app/swagger-ui/index.html](https://nexdom-backend-production.up.railway.app/swagger-ui/index.html)
+
+### Acessando o Banco de Dados H2 no Ambiente de Produção
+
+O projeto utiliza o banco de dados H2 em memória para o ambiente de produção. As configurações para acessar o console do H2 são as seguintes:
+
+- **URL do H2 Console (Produção)**: [https://nexdom-backend-production.up.railway.app/h2-console/](https://nexdom-backend-production.up.railway.app/h2-console/)
+- **Driver Class**: `org.h2.Driver`
+- **JDBC URL**: `jdbc:h2:mem:testdb`
+- **User Name**: `sa`
+- **Password**: *(deixe em branco)*
+
+Certifique-se de que o console do H2 está habilitado e acessível no ambiente de produção.
